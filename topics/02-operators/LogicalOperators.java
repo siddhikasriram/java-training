@@ -1,4 +1,4 @@
-public class LogicalOperators {
+public class LogicalOperators{
     public static void main(String[] args) {
         int a = 10, b = 20;
         boolean condition1 = (a < b);
@@ -8,3 +8,4 @@ public class LogicalOperators {
         System.out.println("NOT (!): " + (!condition1));
     }
 }
+
