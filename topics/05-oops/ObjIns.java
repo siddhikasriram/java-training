@@ -1,11 +1,31 @@
-Object instantiation
+// Defining the Person class
+public class Person {
+    private String name;
+    private int age;
 
-public class ObjIns {
+    // Constructor to initialize the attributes
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    // Getter methods
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    // Main method to demonstrate object instantiation
     public static void main(String[] args) {
+        // Creating an instance of the Person class
         Person person1 = new Person("Alice", 25);
-        System.out.println("Name: " + person1.getName() + ", Age: " + person1.getAge());
 
-        Person person2 = new Person("Bob", 30);
-        System.out.println("Name: " + person2.getName() + ", Age: " + person2.getAge());
+        // Accessing and printing attributes using getter methods
+        System.out.println("Name: " + person1.getName());
+        System.out.println("Age: " + person1.getAge());
     }
 }
+
