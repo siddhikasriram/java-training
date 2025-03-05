@@ -12,7 +12,7 @@ class Engine {
 
 class Car {
     String brand;
-    Engine engine; // Aggregation
+    Engine engine; // Aggregation - Contains the object of another class
 
     Car(String brand, Engine engine) {
         this.brand = brand;
